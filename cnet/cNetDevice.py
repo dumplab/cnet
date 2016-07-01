@@ -1,9 +1,9 @@
-""" An network infrastructure Configuration Item (CI) which delivers an IT Service
+""" A network infrastructure Configuration Item (CI) which delivers an IT Service
  
 A network item can be a Switch, Router or other Managed Infrastructure Component
 """
 
-__author__    = "Karel Stadler"
+__author__    = "dumplab"
 __copyright__ = "2016 dumplab"
 __license__   = "MIT"
 __version__   = "1.1"
