@@ -9,7 +9,7 @@ __license__   = "MIT"
 __version__   = "0.5"
 __status__    = "Developement"
 
-import paramiko,re,time
+import paramiko,re,sys,time
 
 class cNetSSH(object):
 	"""SSH connection object"""
