@@ -51,7 +51,7 @@ class cNetSSH(object):
 			# add untrusted hosts
 			self.__conn.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 			# connect to host
-			self.__conn.connect(self.__host,username=self.__user,password=self.__pass,timeout=1.0)
+			self.__conn.connect(self.__host,username=self.__user,password=self.__pass,look_for_keys=False,timeout=1.0)
 			# set connected flag
 			self.__connected = True
 			# debug
