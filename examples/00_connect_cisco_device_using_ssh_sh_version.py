@@ -6,7 +6,7 @@ from cnet import *
 device = cNetSSH()
 # connect to an SSH enabled switch or router
 device.connect("172.2.2.24","username","password")
-# optiona enable
+# optional send enable
 #device.enable("pass")
 # send show version
 out = device.send("show version")
